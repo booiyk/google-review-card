@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Review Card - Tingkatkan Rating Bisnis Anda</title>
+    <meta name="description" content="Kartu NFC + QR Code untuk review Google bisnis UMKM di Sumedang. Gratis ongkir, garansi 3 bulan.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Tingkatkan Rating Google Bisnis Anda dengan Mudah</h1>
+            <p class="subtitle">Kartu NFC + QR Code untuk review Google - Praktis, Cepat, Profesional</p>
+            
+            <div class="video-container">
+                <video id="productVideo" autoplay loop muted playsinline>
+                    <source src="product-360.mp4" type="video/mp4">
+                </video>
+                <p class="video-caption">Kartu Akrilik Premium 10x10 cm</p>
+            </div>
+            
+            <a href="#produk" class="btn-primary">Lihat Harga</a>
+        </div>
+    </section>
+
+    <!-- Cara Kerja Section -->
+    <section class="cara-kerja">
+        <div class="container">
+            <h2>Cara Kerja</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Tempelkan Kartu</h3>
+                    <p>Letakkan di meja kasir</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Pelanggan Tap/Scan</h3>
+                    <p>Tap HP atau scan QR</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Review Terbuka</h3>
+                    <p>Langsung ke halaman Google</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <h3>Rating Meningkat</h3>
+                    <p>Lebih banyak review</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk" class="produk">
+        <div class="container">
+            <h2>Pilihan Produk</h2>
+            <p class="section-subtitle">Pilih yang sesuai kebutuhan bisnis Anda</p>
+            
+            <div class="product-cards">
+                <!-- Kartu PVC -->
+                <div class="product-card">
+                    <div class="card-badge">Ekonomis</div>
+                    <h3 id="product-pvc-name">Kartu PVC</h3>
+                    <div class="price" id="product-pvc-price">Rp 50.000</div>
+                    <p class="price-unit">per kartu</p>
+                    <ul class="features">
+                        <li>✓ NFC + QR Code</li>
+                        <li>✓ Material PVC berkualitas</li>
+                        <li>✓ Ukuran 10x10 cm</li>
+                        <li>✓ Garansi 3 bulan</li>
+                        <li>✓ Produksi 2 hari</li>
+                    </ul>
+                    <button class="btn-order" data-product="pvc">Pesan Sekarang</button>
+                </div>
+
+                <!-- Kartu NFC -->
+                <div class="product-card featured">
+                    <div class="card-badge popular">Terpopuler</div>
+                    <h3 id="product-nfc-name">Kartu Akrilik NFC</h3>
+                    <div class="price" id="product-nfc-price">Rp 90.000</div>
+                    <p class="price-unit">per kartu</p>
+                    <ul class="features">
+                        <li>✓ NFC + QR Code</li>
+                        <li>✓ Akrilik premium tebal</li>
+                        <li>✓ Ukuran 10x10 cm</li>
+                        <li>✓ Tampilan mewah</li>
+                        <li>✓ Garansi 3 bulan</li>
+                        <li>✓ Produksi 2 hari</li>
+                    </ul>
+                    <button class="btn-order" data-product="nfc">Pesan Sekarang</button>
+                </div>
+
+                <!-- Kartu NFC Grosir -->
+                <div class="product-card">
+                    <div class="card-badge">Hemat</div>
+                    <h3 id="product-wholesale-name">Paket Grosir</h3>
+                    <div class="price" id="product-wholesale-price">Rp 80.000</div>
+                    <p class="price-unit">per kartu (min. 5 pcs)</p>
+                    <ul class="features">
+                        <li>✓ NFC + QR Code</li>
+                        <li>✓ Akrilik premium tebal</li>
+                        <li>✓ Ukuran 10x10 cm</li>
+                        <li>✓ Hemat Rp 10.000/kartu</li>
+                        <li>✓ Garansi 3 bulan</li>
+                        <li>✓ Produksi 2 hari</li>
+                    </ul>
+                    <button class="btn-order" data-product="wholesale">Pesan Sekarang</button>
+                </div>
+            </div>
+
+            <!-- Info Pengiriman -->
+            <div class="shipping-info">
+                <p><strong>Gratis ongkir</strong> area Sumedang | Pembayaran: <strong>Tunai / QRIS</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabel Perbandingan -->
+    <section class="comparison">
+        <div class="container">
+            <h2>Perbandingan Kartu NFC vs PVC</h2>
+            <div class="table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Fitur</th>
+                            <th>Kartu Akrilik NFC</th>
+                            <th>Kartu PVC</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Harga</td>
+                            <td>Rp 90.000</td>
+                            <td>Rp 50.000</td>
+                        </tr>
+                        <tr>
+                            <td>Material</td>
+                            <td>Akrilik premium tebal</td>
+                            <td>PVC berkualitas</td>
+                        </tr>
+                        <tr>
+                            <td>Tampilan</td>
+                            <td>Mewah & elegan</td>
+                            <td>Standar profesional</td>
+                        </tr>
+                        <tr>
+                            <td>Ketahanan</td>
+                            <td>Sangat tahan lama</td>
+                            <td>Tahan lama</td>
+                        </tr>
+                        <tr>
+                            <td>NFC</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>QR Code</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Ukuran</td>
+                            <td>10x10 cm</td>
+                            <td>10x10 cm</td>
+                        </tr>
+                        <tr>
+                            <td>Garansi</td>
+                            <td>3 bulan</td>
+                            <td>3 bulan</td>
+                        </tr>
+                        <tr>
+                            <td>Cocok untuk</td>
+                            <td>Bisnis premium/modern</td>
+                            <td>Semua jenis bisnis</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Layanan -->
+    <section class="keunggulan">
+        <div class="container">
+            <h2>Mengapa Pilih Kami?</h2>
+            <div class="keunggulan-grid">
+                <div class="keunggulan-item">
+                    <div class="icon">01</div>
+                    <h3>Produksi Cepat</h3>
+                    <p>Siap dalam 2 hari kerja</p>
+                </div>
+                <div class="keunggulan-item">
+                    <div class="icon">02</div>
+                    <h3>Garansi 3 Bulan</h3>
+                    <p>Jaminan kualitas produk</p>
+                </div>
+                <div class="keunggulan-item">
+                    <div class="icon">03</div>
+                    <h3>Gratis Ongkir</h3>
+                    <p>Untuk area Sumedang</p>
+                </div>
+                <div class="keunggulan-item">
+                    <div class="icon">04</div>
+                    <h3>Pembayaran Fleksibel</h3>
+                    <p>Tunai atau QRIS</p>
+                </div>
+                <div class="keunggulan-item">
+                    <div class="icon">05</div>
+                    <h3>Kualitas Premium</h3>
+                    <p>Material terbaik</p>
+                </div>
+                <div class="keunggulan-item">
+                    <div class="icon">06</div>
+                    <h3>Support Responsif</h3>
+                    <p>Siap membantu via WhatsApp</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section class="testimoni" style="display: none;">
+        <div class="container">
+            <h2>Apa Kata Mereka?</h2>
+            <p class="section-subtitle">Testimoni dari pemilik bisnis yang sudah menggunakan</p>
+            
+            <div class="testimoni-grid">
+                <!-- Isi testimoni asli di sini -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cara Pesan -->
+    <section class="cara-pesan">
+        <div class="container">
+            <h2>Cara Pemesanan</h2>
+            <div class="pesan-steps">
+                <div class="pesan-step">
+                    <span class="pesan-number">01</span>
+                    <div class="pesan-content">
+                        <h3>Isi Form</h3>
+                        <p>Lengkapi data dan pilih produk</p>
+                    </div>
+                </div>
+                <div class="pesan-step">
+                    <span class="pesan-number">02</span>
+                    <div class="pesan-content">
+                        <h3>Konfirmasi</h3>
+                        <p>Kami hubungi via WhatsApp</p>
+                    </div>
+                </div>
+                <div class="pesan-step">
+                    <span class="pesan-number">03</span>
+                    <div class="pesan-content">
+                        <h3>Pembayaran</h3>
+                        <p>Tunai atau QRIS</p>
+                    </div>
+                </div>
+                <div class="pesan-step">
+                    <span class="pesan-number">04</span>
+                    <div class="pesan-content">
+                        <h3>Pengiriman</h3>
+                        <p>Siap dalam 2 hari</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Pemesanan -->
+    <section id="pesan" class="form-pemesanan">
+        <div class="container">
+            <h2>Form Pemesanan</h2>
+            <p class="section-subtitle">Isi data di bawah ini dan kami akan menghubungi Anda</p>
+            
+            <form id="orderForm" class="order-form">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap *</label>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+                </div>
+
+                <div class="form-group">
+                    <label for="bisnis">Nama Bisnis *</label>
+                    <input type="text" id="bisnis" name="bisnis" required placeholder="Nama bisnis/usaha Anda">
+                </div>
+
+                <div class="form-group">
+                    <label for="whatsapp">Nomor WhatsApp *</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" required placeholder="08xx xxxx xxxx">
+                </div>
+
+                <div class="form-group">
+                    <label for="alamat">Alamat Lengkap *</label>
+                    <textarea id="alamat" name="alamat" required placeholder="Alamat lengkap untuk pengiriman" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="produk">Pilih Produk *</label>
+                    <select id="produk" name="produk" required>
+                        <option value="">-- Pilih Produk --</option>
+                        <option value="pvc">Kartu PVC - Rp 50.000</option>
+                        <option value="nfc">Kartu Akrilik NFC - Rp 90.000</option>
+                        <option value="wholesale">Paket Grosir (5+ pcs) - Rp 80.000/pcs</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jumlah">Jumlah Kartu *</label>
+                    <input type="number" id="jumlah" name="jumlah" required min="1" value="1" placeholder="1">
+                    <small id="priceEstimate" class="price-estimate"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="googleLink">Link Google Review Bisnis Anda</label>
+                    <input type="url" id="googleLink" name="googleLink" placeholder="https://g.page/...">
+                    <small>Opsional: Kami bisa bantu setting jika belum punya</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="catatan">Catatan Tambahan</label>
+                    <textarea id="catatan" name="catatan" placeholder="Ada request khusus? Tulis di sini" rows="2"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Pesan via WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Pertanyaan yang Sering Ditanyakan</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apa itu Google Review Card?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Google Review Card adalah kartu fisik berukuran 10x10 cm dengan teknologi NFC dan QR Code yang memudahkan pelanggan memberikan review di Google bisnis Anda. Cukup tap atau scan, langsung terbuka halaman review.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apa beda kartu NFC dan PVC?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kartu NFC menggunakan material akrilik premium yang lebih tebal dan tampil lebih mewah (Rp 90.000), sedangkan kartu PVC menggunakan material PVC standar yang lebih ekonomis (Rp 50.000). Keduanya memiliki fungsi NFC dan QR Code yang sama.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Berapa lama proses produksi?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Proses produksi hanya memakan waktu 2 hari kerja setelah pembayaran dikonfirmasi. Kami akan langsung proses dan kartu siap dikirim atau diambil.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah ada garansi?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya, semua produk kami bergaransi 3 bulan. Jika ada kerusakan pada kartu dalam masa garansi (bukan karena kesalahan pemakaian), kami akan ganti tanpa biaya tambahan.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Bagaimana cara kerja NFC?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Pelanggan cukup mendekatkan smartphone mereka (yang sudah aktif NFC) ke kartu, maka akan otomatis terbuka halaman review Google bisnis Anda. Jika HP tidak support NFC, bisa scan QR Code yang juga tersedia di kartu.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah gratis ongkir?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya, kami memberikan gratis ongkir untuk area Sumedang, Jawa Barat. Untuk area luar Sumedang, akan dikenakan biaya kirim sesuai jarak dan ekspedisi yang dipilih.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Metode pembayaran apa saja yang tersedia?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kami menerima pembayaran via Tunai (COD untuk area Sumedang) atau QRIS. Pilih metode yang paling nyaman untuk Anda.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah bisa custom desain?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Untuk saat ini kami menyediakan desain standar yang profesional dan siap pakai. Namun, kami bisa diskusikan untuk custom desain dengan minimum order tertentu. Silakan hubungi kami via WhatsApp.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Bagaimana jika saya belum punya link review Google?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tenang, kami siap membantu! Tim kami akan bantu Anda membuat atau menemukan link review Google bisnis Anda secara gratis. Hubungi kami via WhatsApp dan kami akan guide step by step.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah ada diskon untuk pembelian banyak?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya, kami menyediakan harga khusus grosir untuk pembelian 5 pcs atau lebih. Kartu Akrilik NFC yang normalnya Rp 90.000 menjadi hanya Rp 80.000 per kartu. Hemat Rp 10.000 per kartu!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Siap Tingkatkan Rating Bisnis Anda?</h2>
+            <p>Pesan sekarang dan dapatkan lebih banyak review dari pelanggan!</p>
+            <a href="#pesan" class="btn-cta">Pesan Sekarang</a>
+            <p class="cta-note">Atau hubungi kami langsung via WhatsApp</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Google Review Card</h3>
+                    <p>Solusi praktis untuk meningkatkan rating dan review Google bisnis UMKM di Sumedang.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#produk">Kartu PVC</a></li>
+                        <li><a href="#produk">Kartu Akrilik NFC</a></li>
+                        <li><a href="#produk">Paket Grosir</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li><a href="#cara-kerja">Cara Kerja</a></li>
+                        <li><a href="#keunggulan">Keunggulan</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p>Sumedang, Jawa Barat</p>
+                    <p>WhatsApp: <a href="#" id="footer-wa">088212725000</a></p>
+                    <p>Senin - Sabtu: 08.00 - 17.00 WIB</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Google Review Card Sumedang. All rights reserved.</p>
+                <p>Produk ini adalah alat bantu pengumpul ulasan, bukan produk resmi Google.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
